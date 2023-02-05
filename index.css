@@ -1,0 +1,33 @@
+*{
+    width: 100%;
+    background-image: url("https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png");
+    /* background-color:bisque; */
+}
+
+header{
+    position: fixed;
+}
+
+nav{
+    background-repeat: no-repeat;
+    background-position: 0%;
+    display: block;
+    font-size: 20px;
+}
+
+.row{
+   text-align: center;
+   height: max-content;
+}
+
+.href{
+    text-decoration: none;
+    color: rgb(244, 250, 250);
+    padding: 20px;
+}
+
+.href:focus{
+    background-color:aliceblue;
+    color: rgb(19, 19, 19);
+    border-radius: 10px;
+}
