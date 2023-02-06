@@ -3,6 +3,9 @@
 <head>
     <meta charset = "UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <!--  Iconscout CSS  -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <!--  Style CSS  -->
@@ -10,12 +13,48 @@
     <title>Log In</title>
 </head>
 <body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="https://previews.123rf.com/images/kaidash/kaidash1606/kaidash160600017/58060852-beau-visage-de-femme-et-les-cheveux-ic%C3%B4ne-de-la-mode.jpg" alt="" width="300px">
+            </div>
+        </div>
+    </div>
+
+    
     <div class="container">
         <div class="forms">
             <div class="form login">
                 <span class="title">Login</span>
 
-                <form action="#">
+                <form>
+                    <form class="row g-3 d-flex" style="font-family:'Inter'" >
+                    
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" >
+                            <label for="floatingInput">Surname</label>
+                          </div> <br>
+                          <div class="form-floating">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Name</label>
+                          </div> <br> <br>
+                          <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label> 
+                          </div> <br>
+                          <div class="form-floating">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Password</label>
+                          </div> <br> <br>
+                          <a class="btn btn-lg btn-primary" href="#" style="width: 200px; text-align: center;">Sign Up</a>
+                        </div>
+                </form> <br> <br>
+
+
+                </form>
+
+                <!-- <form action="#">
                     <div class="input-field">
                         <input type="text" placeholder="Enter your email" required>
                         <i class="uil uil-envelope"> </i>
@@ -26,7 +65,7 @@
                         <i class="uil uil-eye-slash showHidePw" id="icon"> </i>
                     </div>
                     <button class="submit" name="submit">Submit</button>
-                </form>
+                </form> -->
                 
     
             </div>
