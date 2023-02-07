@@ -34,15 +34,24 @@ nav{
 }
 
 .kurslar{
-    color: #d6cfcf;
+    color:rgb(197, 200, 200);
     text-align: center;
     font-size: 24px;
     font-family: 'Inter';
 }
 
+p{
+    color:rgb(244, 250, 250);
+}
 
 @media screen and (max-width: 720px) {
    img.image{
         margin-block-start: 20px;
     }
+}
+
+
+.image{
+    width: 200px;
+    padding-inline-end: 20px;
 }
