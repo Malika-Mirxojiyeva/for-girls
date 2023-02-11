@@ -1,0 +1,61 @@
+* {
+    min-width: 280px;
+    padding: 0px;
+    margin: 0px;
+    background-image: url("/for-girls/images/image-background.png");
+}
+header{
+    
+    border-bottom: 1px double rgb(249, 250, 215);
+    width: 100%;
+    position: center;
+}
+
+body{
+    text-align: center;    
+}
+.first_img{
+    width: 10%;
+}
+.bg-dark{
+    background-color: black;
+}
+.btn{
+    color: rgb(9, 10, 9);
+}
+
+#container{
+    padding-block-start: 10px;
+    padding-block-end: 5px;
+}
+span{
+    font-size: 20px;
+    font-family: Verdana, sans-serif;
+    font-style: oblique;
+}
+ 
+/* shirinliklar html sahifasidagi rasmlar uchun idga css berilgan */
+#img_1{
+    width: 200px;
+}
+#img_2{
+    width: 200px;
+}
+#img_3{
+    width: 200px;
+}
+#img_4{
+    width: 200px;
+}
+#img_5{
+    width: 200px;
+}
+.ish{
+    font-size: 20px; /* paxlava htmldagi bajariladigan ishlar ketma-ketligiga berilgan css kodi */
+}
+.row_1{
+    display: inline; /* shirinliklar htmldagi kod */
+}
+#h1{
+    text-align: center; /* tvarogli vatrushkalar sahifasidagi kod */
+}
