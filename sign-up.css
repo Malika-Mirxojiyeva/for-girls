@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url("https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png"); */
+    background-color: white;   
+    height: 720px;
+}
+
+.container{
+    display: block;
+}
+
+.title-sign{
+    font-size: 24px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
