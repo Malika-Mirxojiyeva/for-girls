@@ -33,6 +33,10 @@ span{
     font-family: Verdana, sans-serif;
     font-style: oblique;
 }
+
+ul{
+    list-style: none;
+}
  
 /* shirinliklar html sahifasidagi rasmlar uchun idga css berilgan */
 #img_1{
